@@ -28,11 +28,11 @@ public class Main {
 				new Edge(6, 7, 5),
 		};
 		
-		Dijkstra g = new Dijkstra(edges);
-		g.findShortestPath();
+		Dijkstra d = new Dijkstra(edges);
+		d.findShortestPath();
 		// Prints the results of the shortest path from the given source/start 
 		// node/vertex
-		g.results(); 
+		d.results(); 
 		
 	}
 }

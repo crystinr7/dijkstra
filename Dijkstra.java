@@ -82,7 +82,6 @@ public class Dijkstra {
 			
 			// Next vertex must be shortest distance 
 			nextV = vMinWeight();
-			System.out.println(path);
 		}
 	}
 	
